@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import { Card } from "./components/Card"
+import { Nav } from "./components/Nav"
 
 
 function App() {
@@ -18,6 +19,7 @@ useEffect(() =>{
 
   return (
     <>
+    <Nav/>
     <div>
       {data &&
         data.map((user, index) =>(
