@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-Card {
+    background-color: #fff;
+    left: 4%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 10px;
+}
+
+.fig-Card {
+    margin: 0;
+}
+
+.imagen {
+    width: 395px;
+    height: 269px;
+    top: 209px;
+    left: 94px;
+    border-radius: 24px;
+}
+
+.container-Details {
+    display: inline-block;
+
+}
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    top: 494px;
+    left: 1285px;
+}
+
+.rating {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    top: 499px;
+    left: 456px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+.superHost {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+button {
+    color: #4F4F4F;
+    width: 100px;
+    height: 28px;
+    top: 493px;
+    left: 94px;
+    border-radius: 12px;
+    border: 1px 0px 0px 0px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #4F4F4F
+}
+
+.type {
+    display: inline-block;
+    color: #828282;
+    width: 181px;
+    height: 17px;
+    top: 499px;
+    left: 205px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    margin-right: 30px;
+}
+.title {
+    width: 308px;
+    height: 20px;
+    top: 533px;
+    left: 94px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
